@@ -1,0 +1,25 @@
+# 核心依赖
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# LLM提供商
+google-genai>=1.0.0
+dashscope>=1.14.0
+openai>=1.0.0
+
+# 数据库
+sqlalchemy>=2.0.0
+
+# CLI界面
+rich>=13.0.0
+
+# 工具库
+aiohttp>=3.9.0
+typing-extensions>=4.8.0
+
+# 开发依赖
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
